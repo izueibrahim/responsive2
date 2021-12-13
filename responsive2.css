@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0 auto;
+}
+
+div#container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    border: 2px solid black;
+}
+   
+nav {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: row ;
+    justify-content:flex-start;
+    align-items: center;
+    /* background-color: purple; */
+    max-width: 100%;
+}
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+    /* background-color: blue; */
+    padding: 12px 12px;
+}
+
+header {
+    width : inherit;
+    height: 50px;
+    /* background-color: lawngreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu h2{
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+#bannerimage {
+    width: 100%;
+
+}
+
+.fas {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bandPhoto {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.bandPic {
+    width: 270px;
+    height: 270px;
+}
+
+#theband {
+    text-align: center;
+}
+
+#bookTicket {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: inherit;
+    margin: 0 auto;
+    /* background-color: lawngreen; */
+}
+
+#tourDates {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#tourText {
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+#dateColumn {
+    width: 370px;
+    height: 60px;
+    margin: 15px;
+    /* background-color: white; */
+    border: 1px solid black;
+}
+
+#tourFlex {
+    width: inherit;
+    height: auto;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: inherit;
+    margin: 0 auto;
+}
+
+.tourDates {
+    width: auto;
+    height: auto;
+    background-color: white;
+    /* background-color: red; */
+}
+
+.tourDates img {
+    width: 357px;
+    height: 300px;
+}
+
+.bookBtn {
+    width: 75px;
+    height: 25px;
+    border-radius: 2px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    width: inherit;
+    height: 320px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+#contactText {
+    width: 400px;
+    height: 100px;
+    /* background-color: purple; */
+    text-align: center;
+}
+
+#contactFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#inputContact {
+    width: 400px;
+    height: 60px;
+    padding-left: 50px;
+    /* background-color: red; */
+}
+
+#addText {
+    width: 400px;
+    height: 70px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:center; */
+    /* align-items: flex-start; */
+    padding-left: 50px;
+}
+
+.btn {
+    width: 380px;
+    justify-content: space-between;
+}
+
+#mapImg {
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#socialMedia {
+    width: 80px;
+    height: 60px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width : 800px) {
+    .flexVertical {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    /* .bandPic { */
+        /* height : 33%; */
+    /* } */
+}
